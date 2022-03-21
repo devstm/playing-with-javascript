@@ -48,7 +48,7 @@ let older24 = texasss.filter((ele) => ele.age > 24);
 // you will get unexpected results
 // in this example result = 201022730 and it should be 202
 
-let totalAge = texasss.reduce(function (accumulator, curValue) {
+let totalAge = texasss.reduce((accumulator, curValue) => {
   return accumulator + curValue.age;
 },0);
 
