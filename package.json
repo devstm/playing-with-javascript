@@ -6,7 +6,8 @@
   "scripts": {
     "array1": "nodemon front/array21.js",
     "array2": "nodemon front/array2.js",
-    "array3": "nodemon front/array3.js"
+    "array3": "nodemon front/array3.js",
+    "array4": "nodemon front/arrayMethods.js"
   },
   "repository": {
     "type": "git",
